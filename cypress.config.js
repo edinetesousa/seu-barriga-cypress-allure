@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 const { allureCypress } = require('allure-cypress/reporter');
 
-module.exports = defineConfig({
+module.exports = defineConfig ({
   e2e: {
     baseUrl: 'https://seubarriga.wcaquino.me',
     setupNodeEvents(on, config) {
