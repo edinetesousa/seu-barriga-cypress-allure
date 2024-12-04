@@ -1,13 +1,17 @@
-const { defineConfig } = require ("cypress");
-const { allureCypress } = require("allure-cypress/reporter");
+const { defineConfig } = require("cypress");
+const { allureCypress } = require('allure-cypress/reporter');
 
 module.exports = defineConfig ({
   e2e: {
+    baseUrl: 'https://seubarriga.wcaquino.me',
     setupNodeEvents(on, config) {
       allureCypress(on, config, {
-        resultsDir: "allure-results",
+        reportDir: 'allure-results',
       });
       return config;
     },
   },
-});
+  env: {
+    allure: true,
+  },
+})
