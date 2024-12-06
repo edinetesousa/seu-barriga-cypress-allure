@@ -9,13 +9,25 @@ export const cadastro = () => {
 }
 
 Cypress.Commands.add('cadastroUsuario', (cadastro) => {
+if (cadastro.nome && cadastro.nome) {
     cy.get('#nome').type(cadastro.nome);
+}
+if (cadastro.email && cadastro.email) {
     cy.get('#email').type(cadastro.email);
+}
+if (cadastro.senha && cadastro.senha) {
     cy.get('#senha').type(cadastro.senha)
+}
     cy.contains('Cadastrar').click();
 })
 Cypress.Commands.add('validarCadastro', (mensagem) => {
     cy.contains(mensagem).should('be.visible');
+})
+Cypress.Commands.add('validarEmail',  (mensagem) => {
+    cy.get('#email')
+      .invoke('prop', 'validationMessage').wait(5000)
+      .should((text) => {
+        expect(mensagem).to.eq(text)});
 })
 
 export const login = () => {
