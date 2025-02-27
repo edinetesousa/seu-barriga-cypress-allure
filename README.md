@@ -1,7 +1,6 @@
 # ![Login Tests](https://img.shields.io/badge/Login%20Tests-Automation-blue?style=for-the-badge)
 # 📌 Projeto de Testes de Cadastro de Usuário e Login
 
-![Test Automation](https://media.giphy.com/media/QvpqTCiEcwtvx6wwJK/giphy.gif)
 
 ## 🎯 Objetivo
 Este projeto tem como objetivo principal garantir a qualidade e a confiabilidade do sistema de login da aplicação. Através de uma abordagem de **testes manuais** e **documentação detalhada**, buscamos identificar e corrigir falhas no processo de login, assegurando uma experiência segura e eficiente para os usuários.
