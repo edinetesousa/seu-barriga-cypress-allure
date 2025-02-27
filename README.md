@@ -1,39 +1,67 @@
-Projeto de Testes de Cadastro de Usuário e Login.
-Objetivos
-Este projeto tem como objetivo principal garantir a qualidade e a confiabilidade do sistema de login da aplicação. Através de uma abordagem de testes manuais e documentação detalhada, buscamos identificar e corrigir quaisquer falhas ou problemas durante o processo de login.
+#📌 Testes de Cadastro de Usuário e Login
 
-Documentação de Testes
-A documentação de testes deste projeto é composta pelos seguintes artefatos:
+##🎯 Objetivo
 
-1. Plano de Teste
-O Plano de Teste detalha a estratégia, os objetivos, o escopo e a abordagem adotada para os testes de login. Ele define a estrutura geral do projeto de testes.
+Este projeto tem como principal objetivo garantir a qualidade e a confiabilidade do sistema de login da aplicação. Através de testes manuais e documentação detalhada, buscamos identificar e corrigir falhas, assegurando uma experiência segura e eficiente para os usuários.
 
-2. Cenários de Teste
-Os Cenários de Teste fornecem uma especificação detalhada de cada caso de teste a ser executado. Eles incluem:
+##📑 Documentação de Testes
+
+A documentação dos testes é composta pelos seguintes artefatos:
+
+##📝 Plano de Teste
+
+O Plano de Teste descreve a estratégia, os objetivos, o escopo e a abordagem adotada para os testes de login. Ele define a estrutura geral do projeto de testes.
+
+##📌 Cenários de Teste
+
+Os Cenários de Teste especificam detalhadamente cada caso de teste a ser executado. Eles incluem:
 
 Identificação do cenário (ex: CT011 - Login com Credenciais Válidas)
+
 Descrição do script de teste a ser executado
+
 Resultado esperado para cada cenário
-3. Relatório de Teste
-O Relatório de Teste documenta os resultados obtidos durante a execução manual dos testes. Ele contém:
+
+##📊 Relatório de Teste
+
+O Relatório de Teste documenta os resultados obtidos durante a execução manual dos testes, incluindo:
 
 Informações sobre a execução dos testes (data, testador, versão do sistema)
+
 Descrição dos resultados, incluindo capturas de tela como evidências
+
 Análise dos problemas encontrados e ações corretivas necessárias
-4. Relatório de Bugs
-O Relatório de Bugs registra detalhadamente os problemas identificados durante os testes, incluindo:
+
+##🐞 Relatório de Bugs
+
+O Relatório de Bugs registra detalhadamente os problemas identificados durante os testes, contendo:
 
 Identificação do bug (ex: BUG-001)
+
 Descrição do problema encontrado
+
 Classificação da severidade do bug
+
 Ações corretivas propostas
-Próximos Passos: Automação de Testes
-Após a conclusão satisfatória dos testes manuais e a resolução dos problemas identificados, o próximo passo é automatizar esses testes para garantir a sustentabilidade e a escalabilidade do projeto de qualidade.
 
-A automação de testes envolverá as seguintes etapas:
+##🚀 Próximos Passos: Automação de Testes
 
-Seleção da ferramenta de automação adequada (ex: Selenium, Cypress, etc.)
-Criação de scripts de teste automatizados, com base nos cenários de teste manuais
-Integração dos testes automatizados em um pipeline de Integração Contínua (CI)
-Monitoramento e manutenção dos testes automatizados ao longo do ciclo de vida do projeto
-Dessa forma, a aplicação contará com uma suite de testes automatizados robusta, que poderá ser executada de forma rápida e repetitiva, garantindo a qualidade do sistema de login a longo prazo.
+Após a conclusão satisfatória dos testes manuais e a correção dos problemas identificados, o próximo passo será a automação dos testes para garantir sustentabilidade e escalabilidade do projeto de qualidade.
+
+##🔧 Etapas da Automação:
+
+✅ Seleção da ferramenta de automação adequada (ex: Selenium, Cypress, etc.)
+✅ Criação de scripts de teste automatizados, com base nos cenários de teste manuais
+✅ Integração dos testes automatizados em um pipeline de Integração Contínua (CI/CD)
+✅ Monitoramento e manutenção dos testes automatizados ao longo do ciclo de vida do projeto
+
+Dessa forma, a aplicação contará com uma suíte de testes automatizados robusta, garantindo a qualidade contínua do sistema de login.
+
+##📌 Tecnologias que podem ser utilizadas:
+
+Linguagens: Python, JavaScript
+
+Frameworks: Selenium, Cypress, Playwright
+
+Ferramentas de CI/CD: GitHub Actions, Jenkins
+
