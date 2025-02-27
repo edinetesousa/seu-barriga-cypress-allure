@@ -1,5 +1,4 @@
 # ![Login Tests](https://img.shields.io/badge/Login%20Tests-Automation-blue?style=for-the-badge)
-
 # 📌 Projeto de Testes de Cadastro de Usuário e Login
 
 ![Test Automation](https://media.giphy.com/media/QvpqTCiEcwtvx6wwJK/giphy.gif)
