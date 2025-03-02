@@ -57,7 +57,3 @@ Dessa forma, a aplicação contará com uma **suíte de testes automatizados rob
 💡 **Contato:** Para dúvidas ou sugestões, entre em contato pelo GitHub!
 
 
-**teste**
-
-
-
