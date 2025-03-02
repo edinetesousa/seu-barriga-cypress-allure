@@ -55,5 +55,3 @@ Dessa forma, a aplicação contará com uma **suíte de testes automatizados rob
 📌 **Contribuições são bem-vindas!** Caso queira colaborar com o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. 🚀
 
 💡 **Contato:** Para dúvidas ou sugestões, entre em contato pelo GitHub!
-
-**teste 2**
